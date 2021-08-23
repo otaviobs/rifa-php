@@ -1,0 +1,36 @@
+RewriteEngine On
+
+# www
+RewriteCond %{HTTP_HOST} !^localhost
+RewriteCond %{REQUEST_METHOD} ^GET$
+RewriteCond %{HTTPS} off
+RewriteRule .* http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Barra no fim
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.+)/$ /ibbl/admin/$1 [QSA,R=301,NC,L]
+RewriteRule ^(.+)/$ /admin/$1 [QSA,R=301,NC,L]
+
+
+
+# AJAX
+RewriteRule ^ajax/([\w\-]+)$ ajax.php?cat=$1 [QSA,NC,L]
+RewriteRule ^ajax/([\w\-]+)(.(\d+))?.([\w\-]{1,6})$ ajax.php?act=$1&id=$3&cat=$4 [QSA,NC,L]
+RewriteRule ^ajax/([\w\-]+)/([\w\-]+)(.(\d+))?.([\w\-]{1,6})$ ajax.php?act=$1&pg=$2&id=$4&cat=$5 [QSA,NC,L]
+RewriteRule ^ajax/([\w\-]+)/([\w\-]+)/([\w\-]+)(.(\d+))?.([\w\-]{1,6})$ ajax.php?act=$1&pg=$2&spg=$3&id=$5&cat=$6 [QSA,NC,L]
+
+RewriteRule ^(login)/([\w-]+)$ index.php?spg=$1&referer=$2 [QSA,NC,L]
+RewriteRule ^([\w\-]+)(?:/(\d+))?$ index.php?spg=$1&id=$2 [NC,L]
+RewriteRule ^([\w\-]+)/([\w\-]+)(?:/(\d+))?$ index.php?spg=$1&cat=$2&id=$3 [QSA,NC,L]
+
+RewriteRule ^(en|es)(?:/([\w\-]+))?$ index.php?pg=$2&lang=$1 [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([\w\-]+)$ index.php?pg=$1 [NC,L]
+
+ErrorDocument 404 /admin/404
