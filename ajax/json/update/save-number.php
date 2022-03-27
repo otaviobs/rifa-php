@@ -48,14 +48,14 @@ else{
 				if($email){
 					$send->subject = "Número(s) do chá rifa";
 					$send->html = '
-						<h1>Chá rifa do Heitor</h1>
-						Você está participando do chá rifa do Heitor e você escolheu o(s) número(s):
+						<h1>Chá rifa da Eloah</h1>
+						Você está participando do chá rifa da Eloah e você escolheu o(s) número(s):
 						<ul>						
 					';
 					foreach ($info as $key => $value) {
 						$send->html .= '
 							<li style="list-style-type:none">
-								<span style="background:#007bff;color:#fff;padding: 2px 5px;box-shadow: 2px 1px #00000042;">'.$key.'</span>'.$value.'
+								<span style="background:#fc7db0;color:#fff;padding: 2px 5px;box-shadow: 2px 1px #00000042;">'.$key.'</span>'.$value.'
 							</li>';
 					}
 					$send->html .= '</ul>';

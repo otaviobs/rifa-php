@@ -166,7 +166,7 @@
   <style>
 
     .backgroud {
-      background: #d4defc;
+      background: #fad4fc;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-align: center;
