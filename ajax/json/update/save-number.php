@@ -48,7 +48,7 @@ else{
 				if($email){
 					$send->subject = "Número(s) do chá rifa";
 					$send->html = '
-						<h1>Chá rifa da Eloah</h1>
+						<h1>Chá rifa da Heloa</h1>
 						Você está participando do chá rifa da Eloah e você escolheu o(s) número(s):
 						<ul>						
 					';
