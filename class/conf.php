@@ -23,13 +23,13 @@ if ( file_exists( dirname( __FILE__ ) . '/conf-local.php' ) ) {
 			$s->db->pass = 'X4_X!DwRaxkh_n';
 		break;
 		case 1:
-			$s->dom = 'https://www.campanhaibbl.com.br';
+			$s->dom = 'https://chaheloa.com.br';
 			$s->dir = '/';
 			$s->dirAdmin = $s->dir.'admin/';
-			$s->db->host = '200.234.217.146';
-			$s->db->base = 'ibbl_01';
-			$s->db->user = 'ibbl_01';
-			$s->db->pass = 'X4_X!DwRaxkh_n';
+			$s->db->host = '179.188.16.22';
+			$s->db->base = 'chabebe';
+			$s->db->user = 'chabebe';
+			$s->db->pass = 'ch@rifaHeloa2022';
 		break;
 	}
 }
