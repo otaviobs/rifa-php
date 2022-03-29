@@ -29,7 +29,7 @@ if ( file_exists( dirname( __FILE__ ) . '/conf-local.php' ) ) {
 			$s->db->host = '179.188.16.22';
 			$s->db->base = 'chabebe';
 			$s->db->user = 'chabebe';
-			$s->db->pass = 'ch@rifaHeloa2022';
+			$s->db->pass = 'ch@rifaHeloa22';
 		break;
 	}
 }
