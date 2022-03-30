@@ -31,13 +31,11 @@ else{
 			foreach ($numeros as $key => $value) {
 				$i++;
 				if($value <= 11){
-					$fralda = 'Pacote de fralda tamanho P';
-				  }elseif ($value > 11 && $value <= 51) {
-					$fralda = 'Pacote de fralda tamanho M';
-				  }elseif ($value > 51 && $value <= 91) {
-					$fralda = 'Pacote de fralda tamanho G';
-				  }else {
-					$fralda = 'Kit - 4 lenço umedecido';
+					$fralda = 'Pacote de fralda tamanho P + 1 mimo';
+				  }elseif ($value > 11 && $value <= 61) {
+					$fralda = 'Pacote de fralda tamanho M + 1 mimo';
+				  }else{
+					$fralda = 'Pacote de fralda tamanho G + 1 mimo';
 				  }
 				array_push($insert, "('{$nome}','{$email}',{$value},'{$fralda}',1,now())");
 				$info[$value] = $fralda;
