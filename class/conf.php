@@ -2,7 +2,7 @@
 $s->mailU->host = 'smtp.chaheloa.com.br';
 $s->mailU->port = 465; // LocaWeb
 $s->mailU->mail = 'naoresponder@chaheloa.com.br';
-$s->mailU->pass = 'ch@rifaHeloa2!';
+$s->mailU->pass = 'ch@rifaHeloa22';
 $s->mailU->name = 'Chá Rifa da Heloa';
 
 $s->mailC->mail = 'naoresponder@chaheloa.com.br';
