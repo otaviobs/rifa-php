@@ -37,7 +37,8 @@ else{
 				  }else{
 					$fralda = 'Pacote de fralda tamanho G + 1 mimo';
 				  }
-				array_push($insert, "('{$nome}','{$email}',{$value},'{$fralda}',1,now())");
+                array_push($_SESSION['user']['fralda'], $fralda);
+                array_push($insert, "('{$nome}','{$email}',{$value},'{$fralda}',1,now())");
 				$info[$value] = $fralda;
 			}
 
