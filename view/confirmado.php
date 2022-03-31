@@ -1,6 +1,6 @@
 <div class="col-12 mt-2">
   <div class="row align-items-center mb-5">
-    <a href="numeros" style="font-size: 55px;color:#ffffff;" title="Voltar para página inicial">
+    <a href="numeros" style="font-size: 55px;color:#fc7db0;" title="Voltar para página inicial">
       <i class="fas fa-chevron-left"></i>
     </a>
     <div class="col d-flex justify-content-center">
