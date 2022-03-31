@@ -69,16 +69,18 @@ Inline::a();
       confirmButtonText: 'Confirmar',
       cancelButtonText: 'Voltar'
     }).then((result) => {
-        Swal.fire({
-            title: '',
-            allowEscapeKey: false,
-            allowOutsideClick: false,
-            onOpen: () => {
-                swal.showLoading();
-            }
-        });
+
       if (result.isConfirmed) {
+          Swal.fire({
+              title: '',
+              allowEscapeKey: false,
+              allowOutsideClick: false,
+              onOpen: () => {
+                  swal.showLoading();
+              }
+          });
         $('#form-numbers').submit();
+
       }
     })
 
