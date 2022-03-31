@@ -28,6 +28,7 @@ else{
 		else{
 			$insert = [];
 			$info = [];
+            $_SESSION['user']['fralda'] = [];
 			foreach ($numeros as $key => $value) {
 				$i++;
 				if($value <= 11){
