@@ -1,6 +1,6 @@
 <div class="col-12 mt-2">
   <div class="row align-items-center mb-5">
-    <a href="numeros" style="font-size: 55px;color:#fc7db0;" title="Voltar para página inicial">
+    <a href="numeros" style="font-size: 55px;color:#fff;" title="Voltar para página inicial">
       <i class="fas fa-chevron-left"></i>
     </a>
     <div class="col d-flex justify-content-center">
@@ -18,7 +18,7 @@
           <?
           while ($rs = $num->fetchObject()) {
 
-            echo '<li class="mb-1" style="list-style-type:none"><span style="color:#fff;background:#fc7db0;padding: 2px 5px;box-shadow: 2px 1px #00000042;">' . $rs->numero . '</span> '.$rs->fralda.'</li>';
+            echo '<li class="mb-1" style="list-style-type:none"><span style="color:#fff;background:#5eb0f0;padding: 2px 5px;box-shadow: 2px 1px #00000042;">' . $rs->numero . '</span> '.$rs->fralda.'</li>';
           }
           ?>
         </ul>

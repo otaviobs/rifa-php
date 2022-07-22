@@ -148,25 +148,25 @@
   //if($s->pgn>1&&($s->pg=='blog'))echo '<meta name="robots" content="noindex,follow"/>';
   if ($s->pg == 'fb-callback' || $s->pg == 'home-slider' || $s->pg == 'checkout-pagsegurocard') echo '<meta name="robots" content="noindex,nofollow"/>';
   ?>
-    <meta name="title" content="Chá de fraldas da Heloa">
+    <meta name="title" content="Chá de fraldas do Théo">
     <meta name="description" content="Uma nova solução para todos se unirem nesse momento único. Funciona como um chá de fralda com rifa.">
 
     <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="Chá de fraldas da Heloa">
+    <meta itemprop="name" content="Chá de fraldas do Théo">
     <meta itemprop="description" content="Uma nova solução para todos se unirem nesse momento único. Funciona como um Chá de fraldas da  com rifa.">
     <meta itemprop="image" content="https://chaheloa.com.br/assets/img/icon.png">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://chaheloa.com.br/">
-    <meta property="og:title" content="Chá de fraldas da Heloa">
+    <meta property="og:title" content="Chá de fraldas do Théo">
     <meta property="og:description" content="Uma nova solução para todos se unirem nesse momento único. Funciona como um chá de fralda com rifa.">
     <meta property="og:image" content="https://chaheloa.com.br/assets/img/icon.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://chaheloa.com.br/">
-    <meta property="twitter:title" content="Chá de fralda da Heloa">
+    <meta property="twitter:title" content="Chá de fralda do Théo">
     <meta property="twitter:description" content="Uma nova solução para todos se unirem nesse momento único. Funciona como um chá de fralda com rifa.">
     <meta property="twitter:image" content="https://chaheloa.com.br/assets/img/icon.png">
   <title><?= $s->tagt ?></title>
@@ -187,7 +187,7 @@
   <style>
 
     .backgroud {
-      background: #fad4fc;
+      background: #add4f2;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-align: center;
