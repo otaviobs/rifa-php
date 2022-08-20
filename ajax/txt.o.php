@@ -1,4 +1,4 @@
-<?
-if($neg)echo 'Acesso negado!';
-echo $x;
+<?
+if($neg)echo 'Acesso negado!';
+echo $x;
 ?>

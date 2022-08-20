@@ -1,4 +1,4 @@
-<?
-if($neg)$x->m = 'Acesso negado.';
-echo $x->asXML();
+<?
+if($neg)$x->m = 'Acesso negado.';
+echo $x->asXML();
 ?>

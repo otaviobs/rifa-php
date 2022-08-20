@@ -1,4 +1,4 @@
-﻿CREATE TABLE IF NOT EXISTS icons (
+CREATE TABLE IF NOT EXISTS icons (
 id int(10) unsigned NOT NULL AUTO_INCREMENT,
 dc datetime DEFAULT NULL COMMENT 'data cadastrado',
 da datetime DEFAULT NULL COMMENT 'data alterado',

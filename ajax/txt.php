@@ -1,4 +1,4 @@
-<?
-$x = '';
-header('Content-type: text; charset=utf-8');
+<?
+$x = '';
+header('Content-type: text; charset=utf-8');
 ?>
