@@ -31,13 +31,15 @@ else{
             $_SESSION['user']['fralda'] = [];
 			foreach ($numeros as $key => $value) {
 				$i++;
-				if($value <= 11){
+				if($value <= 10){
 					$fralda = 'Pacote de fralda tamanho P + 1 mimo';
-				  }elseif ($value > 11 && $value <= 61) {
+                }elseif ($value > 10 && $value <= 20) {
 					$fralda = 'Pacote de fralda tamanho M + 1 mimo';
-				  }else{
-					$fralda = 'Pacote de fralda tamanho G + 1 mimo';
-				  }
+                }elseif ($value > 20 && $value <= 60) {
+                    $fralda = 'Pacote de fralda tamanho G + 1 mimo';
+                }else{
+					$fralda = 'Pacote de fralda tamanho XG + 1 mimo';
+                }
                 array_push($_SESSION['user']['fralda'], $fralda);
                 array_push($insert, "('{$nome}','{$email}',{$value},'{$fralda}',1,now())");
 				$info[$value] = $fralda;
