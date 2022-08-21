@@ -55,7 +55,7 @@ else{
 					foreach ($info as $key => $value) {
 						$send->html .= '
 							<li style="list-style-type:none">
-								<span style="background:#fc7db0;color:#fff;padding: 2px 5px;box-shadow: 2px 1px #00000042;">'.$key.'</span>'.$value.'
+								<span style="background:#5eb0f0;color:#fff;padding: 2px 5px;box-shadow: 2px 1px #00000042;">'.$key.'</span>'.$value.'
 							</li>';
 					}
 					$send->html .= '</ul>';

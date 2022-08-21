@@ -154,21 +154,21 @@
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="Chá de fraldas do Théo">
     <meta itemprop="description" content="Uma nova solução para todos se unirem nesse momento único. Funciona como um Chá de fraldas da  com rifa.">
-    <meta itemprop="image" content="https://chaheloa.com.br/assets/img/icon.png">
+    <meta itemprop="image" content="https://chadotheo.com.br/assets/img/icon.png">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://chaheloa.com.br/">
+    <meta property="og:url" content="https://chadotheo.com.br/">
     <meta property="og:title" content="Chá de fraldas do Théo">
     <meta property="og:description" content="Uma nova solução para todos se unirem nesse momento único. Funciona como um chá de fralda com rifa.">
-    <meta property="og:image" content="https://chaheloa.com.br/assets/img/icon.png">
+    <meta property="og:image" content="https://chadotheo.com.br/assets/img/icon.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://chaheloa.com.br/">
+    <meta property="twitter:url" content="https://chadotheo.com.br/">
     <meta property="twitter:title" content="Chá de fralda do Théo">
     <meta property="twitter:description" content="Uma nova solução para todos se unirem nesse momento único. Funciona como um chá de fralda com rifa.">
-    <meta property="twitter:image" content="https://chaheloa.com.br/assets/img/icon.png">
+    <meta property="twitter:image" content="https://chadotheo.com.br/assets/img/icon.png">
   <title><?= $s->tagt ?></title>
   <!-- SEO -->
   <?php
