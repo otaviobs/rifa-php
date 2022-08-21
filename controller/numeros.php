@@ -12,3 +12,4 @@ while($row = $num->fetchObject())
 	array_push($indisponivel, (int)$row->numero);
 	$info[$row->numero] = $row->nome;
 }
+$s->tagt = ' | Escolher';

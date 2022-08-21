@@ -169,7 +169,7 @@
     <meta property="twitter:title" content="Chá de fralda do Théo">
     <meta property="twitter:description" content="Uma nova solução para todos se unirem nesse momento único. Funciona como um chá de fralda com rifa.">
     <meta property="twitter:image" content="https://chadotheo.com.br/assets/img/icon.png">
-  <title><?= $s->tagt ?></title>
+  <title>Chá de fraldas do Théo<?= $s->tagt ?></title>
   <!-- SEO -->
   <?php
   $s->printTags($s->seo);
