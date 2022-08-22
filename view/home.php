@@ -7,11 +7,11 @@
 
     <form id="form-name">
       <div class="form-label-group">
-        <input name="nome" type="text" id="nome" class="form-control" placeholder="Digite o seu nome..." maxlength="190" required autofocus>
+        <input name="nome" type="text" id="nome" class="form-control" placeholder="*Digite o seu nome..." maxlength="190" required autofocus>
         <label for="nome">Digite o seu nome...</label>
       </div>
       <div class="form-label-group">
-        <input name="email" type="email" id="email" class="form-control" placeholder="Digite o seu e-mail..." >
+        <input name="email" type="email" id="email" class="form-control" placeholder="(Não é obrigatório!) Digite o seu e-mail..." >
         <label for="email">Digite o seu e-mail...</label>
       </div>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Continuar</button>
