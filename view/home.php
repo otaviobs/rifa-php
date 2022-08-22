@@ -33,7 +33,7 @@
                 <strong>Este site é um chá de fralda como uma rifa, pensamos em um jeito mais fácil para todos. Agradecemos desde já por sua ajuda.</strong><br /><br />
                 Vamos lá, clique para fechar essa mensagem e irá aparecer uma caixinha onde precisa colocar o seu <strong>nome completo</strong> e caso queira receber os números por e-mail, preencha o campo de e-mail também. Depois é só clicar no botão "Continuar".<br /><br />
                 Você será redirecionado para a página dos números. <strong>Os números que estão em vermelho não estão disponíeis.</strong> Então clique no(s) número(s) desejado(s) e irá paracer uma caixinha para confirmar a sua escolha.<br /><br />
-                Essa caixinha é para que você confirme o(s) número(s) escolhido(s), <strong>ao clicar no botão "Confirmar"</strong>, concluirá a(s) escolha(s) do(s) seu(s) número(s) e depois <strong>é só torcer para ganhar o prêmio de R$ 200,00 caso o seu número seja sorteado.</strong><br /><br />
+                Essa caixinha é para que você confirme o(s) número(s) escolhido(s), <strong>ao clicar no botão "Confirmar"</strong>, concluirá a(s) escolha(s) do(s) seu(s) número(s) e depois <strong>é só torcer para ganhar o prêmio de R$ 150,00 caso o seu número seja sorteado.</strong><br /><br />
                 <strong>Lembrando que se você colocar o seu e-mail, irá receber o(s) número(s) e o que precisará dar por e-mail também.</strong>
             </div>
             <div class="modal-footer">
