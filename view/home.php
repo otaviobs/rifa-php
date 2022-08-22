@@ -12,7 +12,7 @@
       </div>
       <div class="form-label-group">
         <input name="email" type="email" id="email" class="form-control" placeholder="(Não é obrigatório!) Digite o seu e-mail..." >
-        <label for="email">Digite o seu e-mail...</label>
+        <label for="email">(Não é obrigatório!) Digite o seu e-mail...</label>
       </div>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Continuar</button>
     </form>
